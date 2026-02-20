@@ -5,7 +5,7 @@ export default function ProjectsSection() {
     {
       title: "Portfolio Website",
       description:
-        "A clean personal portfolio with a responsive layout, smooth UI, and simple navigation.",
+        "A modern personal portfolio featuring a responsive layout, smooth UI interactions, and intuitive navigation.",
       icon: "/icons/sk.png",
       frameworks: ["Next.js", "TypeScript", "Tailwind CSS"],
       github: "https://github.com/YOUR_USERNAME/portfolio",
@@ -14,7 +14,7 @@ export default function ProjectsSection() {
     {
       title: "More",
       description:
-        "Track workouts, sets, reps, and progress with a simple dashboard and clean design.",
+        "A real estate data platform inspired by Zillow. I sourced and normalized statewide datasets for 31 states and county-level data for 15 additional states, aggregating them into a unified PMTiles pipeline. The app currently serves Florida property data, allowing users to seamlessly explore comprehensive public property records at scale.",
       icon: "/icons/more.png",
       frameworks: [
         "Next.js",
@@ -26,7 +26,7 @@ export default function ProjectsSection() {
         "NextAuth.js",
         "React Query",
         "Zod",
-        "Pusher",
+        "PMTiles",
       ],
       github: "https://github.com/YOUR_USERNAME/workout-tracker",
       live: "https://workout-tracker.vercel.app",
@@ -34,18 +34,32 @@ export default function ProjectsSection() {
     {
       title: "ByteChess",
       description:
-        "A notes app with AI summarization, tagging, and search to organize your thoughts faster.",
+        "A full-stack real-time chess platform where users can play head-to-head and solve puzzles. Features an on-chain puzzle rating system, competitive matchmaking, and a scalable multiplayer architecture.",
       icon: "/icons/bc.png",
-      frameworks: ["tRPC", "Zod", "Auth.js"],
+      frameworks: [
+        "Next.js",
+        "TypeScript",
+        "tRPC",
+        "Zod",
+        "Auth.js",
+        "WebSockets",
+      ],
       github: "https://github.com/YOUR_USERNAME/ai-notes",
       live: "https://ai-notes.vercel.app",
     },
     {
       title: "Chicobot",
       description:
-        "A notes app with AI summarization, tagging, and search to organize your thoughts faster.",
+        "A Solana analytics and trading platform that surfaces newly launched tokens in real time. The app streams LP pool account data directly from the blockchain and pipes it to the frontend, enabling users to discover and trade emerging tokens instantly.",
       icon: "/icons/3.png",
-      frameworks: ["tRPC", "Zod", "Auth.js"],
+      frameworks: [
+        "Next.js",
+        "TypeScript",
+        "Solana Web3.js",
+        "WebSockets",
+        "tRPC",
+        "Zod",
+      ],
       github: "https://github.com/YOUR_USERNAME/ai-notes",
       live: "https://ai-notes.vercel.app",
     },
