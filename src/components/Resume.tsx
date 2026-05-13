@@ -192,9 +192,7 @@ export default function ResumeSection() {
 
             <div className="mt-4 space-y-6 text-sm text-black/70">
               <div>
-                <p className="font-medium text-black">
-                  Elevate Sports Ventures – Inter Miami CF Project
-                </p>
+                <p className="font-medium text-black">Inter Miami CF Project</p>
                 <p className="text-black/60">
                   Account Executive, Membership Services • Jan 2020 – Oct 2020
                 </p>
